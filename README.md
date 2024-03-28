@@ -40,7 +40,3 @@ After executing these commands, the web application will be available at `http:/
 ---
 
 We hope that ReactBlopster.ts will become a useful resource for anyone interested in TypeScript and React development, as well as provide a convenient platform for buying toys in "Blop Top".
-
----
-
-Мы надеемся, что ReactBlopster.ts станет полезным ресурсом для всех, кто интересуется разработкой на TypeScript и React, а также предоставит удобную платформу для покупки игрушек в "Blop Top".
