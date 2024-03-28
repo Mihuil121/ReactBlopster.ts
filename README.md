@@ -23,7 +23,7 @@ To start the project, follow these steps:
 
 ```bash
 # Cloning the repository
-git clone https://github.com/your-username/ReactBlopster.ts.git
+git clone [https://github.com/your-username/ReactBlopster.ts.git](https://github.com/Mihuil121/ReactBlopster.ts)
 
 # Go to
 the cd ReactBlopster.ts project directory
