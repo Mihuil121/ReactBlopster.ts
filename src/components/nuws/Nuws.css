@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(45deg, #420946, #ffd443);
+    animation: animationBac 5s ease-in-out infinite;
+    background-size: 200%, 200%;
+}
+
+@keyframes animationBac {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.text-News {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-News p {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+.Slider-News {
+    display: block;
+    justify-content: center;
+}
+.Slider-News-Image{
+    width: 120rem;
+    height: 54rem;
+}

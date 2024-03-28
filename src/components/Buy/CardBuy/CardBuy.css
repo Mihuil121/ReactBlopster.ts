@@ -1,0 +1,183 @@
+.buy-text p {
+    text-decoration: none;
+}
+
+.DescriptionBuyBacgraund {
+    background: #f8d83f;
+    background-size: 200%, 200%;
+    width: 80rem;
+    border-radius: 0.5rem;
+}
+
+.textDecorationBuy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.nameBuy {
+    text-align: center;
+}
+
+.img-Description-Buy {
+    width: 30rem;
+    border-radius: 1rem;
+    margin: 3rem 3rem;
+}
+
+.BuyDescription {
+    margin: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.descriptionBuy {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 2rem 2rem;
+}
+
+.borderBuy {
+    border: 0.2rem solid #000000;
+    background: #ffffff;
+    border-radius: 2rem;
+}
+
+.order {
+    border: 1px #ffffff solid;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    background: #ffffff;
+    font-size: 1.5rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    transition: transform 0.1s;
+}
+
+.order:hover {
+    transform: scale(1.3);
+    color: #ff0000;
+}
+
+.rebootBuy {
+    display: flex;
+    justify-content: center;
+}
+
+.reboot {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    background: #f8d83f;
+    border-radius: 50rem;
+}
+
+/* Общие стили для всех кнопок */
+
+.texrZBuy2 {
+    background-size: cover;
+    border: 1px solid #ffffff;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.3s;
+    background-color:#0400ff;
+}
+
+.texrZBuy1{
+    background-color:#570052;
+    background-size: cover;
+    border: 1px solid #ffffff;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.3s;
+}
+
+.texrZBuy2 p, .texrZBuy1 p{
+    font-size: 2rem;
+}
+
+/* Эффект тени для блока "order-from-the-platform-buy" */
+.order-from-the-platform-buy {
+    border: 1px solid #000000;
+    background: #ffd500;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Подсветка кнопок при наведении */
+.texrZBuy1:hover,
+.texrZBuy2:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Анимация входа блока */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Стили блока "order-from-the-platform" */
+.order-from-the-platform {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Стили для текста "Заказать с платформы" */
+.BuyorderText {
+    text-align: center;
+}
+
+/* Стили для кнопки "BadgeX" */
+.BadgeX {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+@keyframes fadeOut1 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.element {
+    animation: fadeOut1 0.5s ease forwards;
+}

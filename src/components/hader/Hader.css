@@ -1,0 +1,49 @@
+.bloptop-heder {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+    background: linear-gradient(45deg, #420946, #ffd443);
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    background-size: 200%, 200%;
+    animation: animationBac 5s ease-in-out infinite;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1; 
+}
+
+@keyframes animationBac {
+    0% { background-position: 0 0; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.icon-img{
+   width: 8rem;
+   border-radius: 1rem;
+   margin-left: 1rem;
+}
+
+.div-text-hader{
+    width: 12rem;
+    display: flex;
+    margin-right: 35rem;
+}
+.text-heder{
+    
+    margin-right: 1rem;
+}
+.border-text{
+    cursor: pointer;
+    border: none;
+    background:none;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.border-text:hover{
+    color: aliceblue;
+}

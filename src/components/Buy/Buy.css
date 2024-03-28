@@ -1,0 +1,97 @@
+.Buy-main {
+    background: #420946;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.border-buy {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #fff;
+    width: 20rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, #420946, #ffd443);
+    background-size: 200%, 200%;
+    animation: animationBac 5s ease-in-out infinite;
+    transition: 1s;
+
+}
+
+@keyframes animationBac {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.border-buy:hover {
+    transform: scale(1.1);
+}
+
+.blok {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.buy-img {
+    width: 12rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.buy-text {
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.buy {
+
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.magazi {
+    text-align: center;
+    color: #ffffff;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.buy-buton {
+    border: none;
+    background: none;
+}
+
+.text-button {
+    border: 1px solid #420946;
+    width: 10rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background: #fbff00;
+    transition: 0.5s;
+}
+
+.text-button:hover {
+    transform: scale(1.1);
+}
+.p{
+    text-decoration: none;
+}

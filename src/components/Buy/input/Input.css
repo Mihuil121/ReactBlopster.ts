@@ -1,0 +1,57 @@
+@keyframes expand {
+  0% {
+    width: 2rem;
+    height: 2rem;
+  }
+  100% {
+    width: 16rem;
+    height: 2rem;
+  }
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bacInput {
+  position: relative; 
+  background-color: #ffc400;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.input-buy {
+  background: none;
+  border: 0px solid ;
+  width: 15rem;
+  transition: background 0.5s ease-in-out;
+}
+
+.input-buy:active,
+.input-buy:focus {
+  background: #ffc40063;
+  border: 0px solid #ffffff00;
+}
+
+.bacInput .search-icon {
+  position: absolute; 
+  left: 0.5rem; 
+}
+
+.bacInput:active,
+.bacInput:focus-within {
+  animation: expand 0.5s forwards;
+  border-radius: 1rem;
+}
+.buttonI{
+  border:none;
+  background:none;
+  margin-top: -1rem;
+}

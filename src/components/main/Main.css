@@ -1,0 +1,45 @@
+.foto-main {
+    background: url('../../img/fotor-20240210125948.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-1 {
+    border: 1px solid #ffffff;
+    text-align: center;
+    width: 50rem;
+    height: 30rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+}
+
+.text-card {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.opacity{
+    opacity: 0.8; /* Увеличьте уровень прозрачности */
+    border: 1px solid #000000;
+    background-color: #5c5c5c;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius:2rem;
+}
+
+.text-description {
+    font-size: 1.3rem;
+    color: #ffffff;
+}
