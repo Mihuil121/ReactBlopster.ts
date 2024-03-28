@@ -1,5 +1,5 @@
 # ReactBlopster.ts
-
+![Демонстрация](https://github.com/your-username/your-repository/blob/main/demo.gif)
 ## About the project
 
 ReactBlopster.ts is a web application designed to demonstrate deep immersion in TypeScript (TS) and its interaction with React. The project was developed as a platform for the virtual toy store "Blop Top", providing a convenient and interactive way for users to browse and buy toys online.
