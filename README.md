@@ -2,15 +2,31 @@
 
 ## About the project
 
-ReactBlopster.ts is a web application created for the purpose of researching and deepening knowledge in the field of TypeScript (TS) and its interaction with React. The project was developed as a platform for the virtual toy store "Blop Top", providing a convenient and interactive way for users to browse and buy toys online.
+ReactBlopster.ts is a web application designed to demonstrate deep immersion in TypeScript (TS) and its interaction with React. The project was developed as a platform for the virtual toy store "Blop Top", providing a convenient and interactive way for users to browse and buy toys online.
 
 ### Motivation
 
-The project is based on the desire to master modern web development technologies and the desire to create a full-fledged web application that would demonstrate the capabilities of TypeScript in combination with React. This application serves as an excellent example for understanding how TS improves development through strict typing and how these benefits can be integrated into a reactive user interface created using React.
+The goal of the project was not only to study TypeScript and React, but also to create a functional web application that could serve as an example of effective use of strict TS typing to improve development and integration with the reactive React user interface.
 
-### Description of the "Blop Top" store
+## Description of the "Blop Top" store
 
-"Blop Top" is a toy store that offers a wide range of products for children of all ages. From classic stuffed toys to modern educational kits, Blop Top strives to provide high-quality and safe toys that promote development and entertainment. The ReactBlopster.ts web application provides a simple and intuitive interface, making the process of choosing and buying toys as convenient and enjoyable as possible.
+Blop Top is not just a toy store, it is a whole creative community dedicated to creating unique soft anti-stress toys. Founded in April 2020, during the pandemic, "Blop Top" began its journey by exploring Japanese trash games, which led to the creation of viral videos in TikTok and gaining millions of views. The most popular format was a board game where players had to guess a character from a popular universe.
+
+Since then, Blop Top has grown into a major toy manufacturer, regularly releasing new collections in response to the demands of its audience. Toys such as Horseradish and Flip-Flops have become brand symbols, winning the hearts of fans and becoming coveted objects in collections around the world.
+
+### The story of "Blop Top"
+
+- **Beginning**: The "Blop Top" channel was created in April 2020, when founders Sasha and Marina began experimenting with trash games to create content.
+- **First toys**: The first batch of toys was announced in May 2021 and included a llama, a parrot, a duck, a pigeon and a chicken. Despite the mixed reviews, production continued, and "Blop Top" began to produce toys that quickly became popular.
+- **Development**: Blop Top continues to release new collections, including horror toys and exclusive unreleased models, expanding its line and strengthening its connection with the community.
+
+### Creative community "Blop Top"
+
+Blop Top not only produces toys, but is also home to a wide range of creative projects, including games, comics and various media formats. This community is actively involved in content creation, contributing to the "Blop Top" Wiki, and maintains an active presence on social media, including YouTube, Telegram, and TikTok.
+
+### A call to action
+
+"Blop Top" invites everyone to join their creative movement by contributing to the Wiki, creating new articles and expanding the history of "Blop Top" from the first video to the latest achievements.
 
 ### Technologies
 
@@ -23,7 +39,7 @@ To start the project, follow these steps:
 
 ```bash
 # Cloning the repository
-git clone https://github.com/Mihuil121/ReactBlopster.ts
+git clone https://github.com/your-username/ReactBlopster.ts.git
 
 # Go to
 the cd ReactBlopster.ts project directory
