@@ -60,7 +60,7 @@ We hope that ReactBlopster.ts will become a useful resource for anyone intereste
 
 ## Registration
 
-![Демонстрация](https://github.com/Mihuil121/ReactBlopster.ts/blob/main/gif.gif)
+![Демонстрация](https://github.com/Mihuil121/ReactBlopster.ts/blob/main/6.gif)
 
 To use our application or service, you need to register. During the registration process, you will need to fill in the following fields:
 
