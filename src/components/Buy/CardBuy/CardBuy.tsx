@@ -122,7 +122,7 @@ export default class CardBuy extends Component<{}, CardBuyState> {
 
     } else {
       InputBuy = <Input onSearch={this.handleSearch} />
-      BuyFiltr = filteredApp.map((d) => (
+      BuyFiltr = filteredApp.map((d: Arrat):React.JSX.Element => (
 
         <div className="border-buy" onClick={() => this.seloectBuyCard(d)} >
           <div className="buy-img">

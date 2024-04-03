@@ -45,16 +45,18 @@ export default class Hader extends React.Component<MyComponentProps> {
                         
                         <div className="text-heder">
                             <button onClick={()=>{window.location.assign('https://t.me/s/bloptop ')}} className='border-text'>
-                                телеграм
+                                Телеграм
                                 <SatelliteDish />
                             </button>
                         </div>
                        
                         <div className="text-heder">
+                            <HashLink to='/Sin#myText'>
                             <button className='border-text'>
                                 войти
                                 <User />
                             </button>
+                            </HashLink>
                         </div>
                     </div>
                 </div>

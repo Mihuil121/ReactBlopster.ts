@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import Nuws from "./components/nuws/Nuws.tsx";
 import Basket from "./components/Buy/Basket.tsx/Basket.tsx";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sin from './components/Sin/Sin.tsx'
 
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
             <Route path='/Nuw' element={<Nuws />} />
             <Route path="/Buy" element={<Buy />} />
             <Route path="/Basket" element={<Basket />} />
+            <Route path="/Sin" element={<Sin />} />
           </Routes>
         </div>
       </Router>
