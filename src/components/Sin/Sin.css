@@ -1,56 +1,55 @@
 .Registration {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .Registration form {
-    width: 300px;
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Registration h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .Registration input {
-    width: calc(100% - 40px);
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .Registration input:focus {
-    outline: none;
-    border-color: #4d90fe;
-  }
-  
-  .Registration button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #4d90fe;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .Registration button:hover {
-    background-color: #357ae8;
-  }
-  
-  .Registration button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Registration form {
+  width: 300px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Registration h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Registration input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Registration input:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+
+.Registration button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4d90fe;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Registration button:hover {
+  background-color: #357ae8;
+}
+
+.Registration button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -6,6 +6,7 @@ import Nuws from "./components/nuws/Nuws.tsx";
 import Basket from "./components/Buy/Basket.tsx/Basket.tsx";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sin from './components/Sin/Sin.tsx'
+import './changes.css'
 
 
 export default class App extends Component {

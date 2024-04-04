@@ -53,7 +53,7 @@ export default class Hader extends React.Component<MyComponentProps> {
                         <div className="text-heder">
                             <HashLink to='/Sin#myText'>
                             <button className='border-text'>
-                                войти
+                                Войти
                                 <User />
                             </button>
                             </HashLink>

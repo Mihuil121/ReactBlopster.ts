@@ -5,9 +5,9 @@ export default class Block extends Component {
     render() {
         return (
             <>
-                <div className="block-ne">
-                    <div className="vloc-bleck">
-                        <div className="block-v">
+                <div className="block-container">
+                    <div className="news-block">
+                        <div className="news-content">
                             <p>
                                 В последние новости входит следующее:
 

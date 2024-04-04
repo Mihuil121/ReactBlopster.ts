@@ -116,7 +116,7 @@ export default class CardBuy extends Component<{}, CardBuyState> {
           </div>
         </div>
 
-      function RebootBuy() {
+      function RebootBuy():void {
         window.location.reload()
       }
 
