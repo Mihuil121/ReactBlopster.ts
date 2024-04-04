@@ -49,10 +49,24 @@ npm install dependencies
 
 # Launching
 the npm start application
-``
+```
 
 After executing these commands, the web application will be available at `http://localhost:3000 `.
 
 ---
 
+
 We hope that ReactBlopster.ts will become a useful resource for anyone interested in TypeScript and React development, as well as provide a convenient platform for buying toys in "Blop Top".
+
+## Registration
+
+![Демонстрация](https://github.com/Mihuil121/ReactBlopster.ts/blob/main/6.gif)
+
+To use our application or service, you need to register. During the registration process, you will need to fill in the following fields:
+
+- **Account**: This is the unique name that you will use to log in.
+- **Password**: Please choose a strong password that you can easily remember.
+
+After filling in all the fields, click the "Register" button to complete the registration process. After that, you will be able to log in and start using our application or service.
+
+
